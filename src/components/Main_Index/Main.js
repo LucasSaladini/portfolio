@@ -25,16 +25,22 @@ const Main = () => {
             <div className={styles.technologies}>
                 <h2>Tecnologias</h2>
                     <h5>Frameworks</h5>
-                        <Image src="/Bootstrap_(front-end_framework)-Logo.wine.svg" alt="" 
-                        width={120} height={120}></Image>
-                        <Image src="/nextjs-3.svg" alt="" width={100} height={100}></Image>
+                        <div className={styles.tech__img}>
+                            <Image src="/bootstrap-5-1.svg" alt="" 
+                            width={100} height={100}></Image>
+                            <Image src="/nextjs-3.svg" alt="" width={100} height={100}></Image>
+                        </div>
                     <h5>Linguagens</h5>
-                        <Image src="/css-3.svg" alt="" width={100} height={100}></Image>
-                        <Image src="/html5.svg" alt="" width={100} height={100}></Image>
-                        <Image src="/php-1.svg" alt="" width={100} height={100}></Image>
+                        <div className={styles.tech__img}>
+                            <Image src="/css3.svg" alt="" width={100} height={100}></Image>
+                            <Image src="/html5.svg" alt="" width={100} height={100}></Image>
+                            <Image src="/php-1.svg" alt="" width={100} height={100}></Image>
+                        </div>
                     <h5>Aplicativos</h5>
-                        <Image src="/toppng.com-react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-986x1055.png" 
+                        <div className={styles.tech__img}>
+                            <Image src="/react-2.svg" 
                             alt="" width={100} height={100}></Image>
+                        </div>     
             </div>
             <div className={styles.faq}>
                 <h2>Dúvidas Frequentes</h2>

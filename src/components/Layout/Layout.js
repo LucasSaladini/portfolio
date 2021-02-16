@@ -8,11 +8,6 @@ const Layout = ({ children, title="Lucas Saladini" }) => {
             <title>{ title }</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
-
-        <header className={styles.header}>
-            logo
-        </header>
-
         <main className={styles.main}>
             { children }
         </main>
