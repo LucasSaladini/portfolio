@@ -8,10 +8,7 @@ import Jobs from '../components/Jobs/Jobs'
 export default function Home() {
   return (
     <Layout>
-      <About></About>
-      <Jobs></Jobs>
-      <Gallery></Gallery>
-      <Contact></Contact>
+      
     </Layout>
   )
 }
