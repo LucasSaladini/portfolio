@@ -24,4 +24,6 @@
     display: flex;
 }
 
-.faq {}
+.faq {
+    color: red;
+}
