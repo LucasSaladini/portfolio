@@ -1,9 +1,16 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
+import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import styles from './Main.module.css';
 
 
 const Main = () => {
+    <Head>
+        
+    </Head>
     return(
         <main>
             <div className={styles.Intro}>
@@ -28,25 +35,78 @@ const Main = () => {
                         <div className={styles.tech__img}>
                             <Image src="/bootstrap-5-1.svg" alt="" 
                             width={100} height={100}></Image>
+                            <p className={styles.tech__name}>Bootstrap</p>
+                        </div>
+                        <div className={styles.tech__img}>
                             <Image src="/nextjs-3.svg" alt="" width={100} height={100}></Image>
                         </div>
+                        
                     <h5>Linguagens</h5>
-                        <div className={styles.tech__img}>
+                        <div className={styles.tech__img__lang}>
                             <Image src="/css3.svg" alt="" width={100} height={100}></Image>
                             <Image src="/html5.svg" alt="" width={100} height={100}></Image>
+                        </div>
+                        <div className={styles.tech__img__lang_php}>
                             <Image src="/php-1.svg" alt="" width={100} height={100}></Image>
                         </div>
                     <h5>Aplicativos</h5>
                         <div className={styles.tech__img}>
                             <Image src="/react-2.svg" 
                             alt="" width={100} height={100}></Image>
+                            <p className={styles.tech__name}>React Native</p>
                         </div>     
             </div>
             <div className={styles.faq}>
                 <h2>Dúvidas Frequentes</h2>
-                <div>
-                    
-                </div>
+                <p>Abaixo estão as dúvidas mais frequentes. Clique nelas e veja as respostas</p>
+                <Accordion>
+                    <Card>
+                        <Card.Header>
+                            <Accordion.Toggle as={Button} variant="link" eventKey="0" 
+                            className={styles.card__title}>
+                                Estou com dúvidas, como faço?
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey="0">
+                            <Card.Body className={styles.card__text}>Me envie uma mensagem via WhatsApp ou e-mail que entrarei em contato!</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Card.Header>
+                            <Accordion.Toggle as={Button} variant="link" eventKey="1"
+                            className={styles.card__title}>
+                                Tenho um modelo em mente, podemos utilizar?
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey="1"
+                        className={styles.card__text}>
+                            <Card.Body>Claro! Me mande o modelo ou a ideia que tem e conversamos!</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Card.Header>
+                            <Accordion.Toggle as={Button} variant="link" eventKey="2"
+                            className={styles.card__title}>
+                                Posso pedir uma cotação?
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey="2"
+                        className={styles.card__text}>
+                            <Card.Body>Com toda certeza! Entre em contato comigo e te envio uma cotação sem compromisso</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Card.Header>
+                            <Accordion.Toggle as={Button} variant="link" eventKey="3"
+                            className={styles.card__title}>
+                                Posso ver seus trabalhos? Estou sem inspiração
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey="3" className={styles.card__text}>
+                            <Card.Body>Dê uma olhada no meu portfólio, lá tem os projetos que já desenvolvi e as ideias que tive para sites e apps</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                </Accordion>
             </div>
         </main>
     );

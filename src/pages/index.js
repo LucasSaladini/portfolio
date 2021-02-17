@@ -1,4 +1,10 @@
 import Head from 'next/head'
+import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+//Elements
 import Layout from '../components/Layout/Layout'
 import About from '../components/About/About'
 import Contact from '../components/Contact/Contact'
@@ -10,6 +16,19 @@ import Main from '../components/Main_Index/Main'
 export default function Home() {
   return (
     <Layout>
+      <Head>
+      <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+
+      <script
+        src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+        crossorigin></script>
+
+      <script
+        src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+        crossorigin></script>
+
+      <script>var Alert = ReactBootstrap.Alert;</script>
+      </Head>
       <Navbar />
       <Main />
     </Layout>

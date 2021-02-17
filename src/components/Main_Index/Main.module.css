@@ -21,10 +21,48 @@
 }
 
 .tech__img {
-    display: block;
-    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tech__img__lang {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tech__img__lang_php {
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tech__name {
+    font-size: 12px;
+
 }
 
 .faq {
-    color: red;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20vw;
+}
+
+.faq h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20vw;
+}
+
+.faq p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.card__title {
+    color: black;
+    font-size: 25px;
+}
+
+.card__text {
+    font-size: 20px;
 }
