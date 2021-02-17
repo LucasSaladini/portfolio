@@ -19,7 +19,7 @@ const Main = () => {
                 <p className={styles.paragraph}>
                     Precisa de um aplicativo para seu negócio? Quer que seu negócio cresça e apareça nas duas maiores
                     lojas de aplicativos atualmente, a App Store e a Play Store?
-                    Eu posso te ajudar com isso!
+                    Também desenvolvo aplicativos!
                 </p>
             </div>
             <div className={styles.technologies}>
