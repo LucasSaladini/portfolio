@@ -1,37 +1,17 @@
-.navbar {
-    background-color: gray;
-    display: flex;
-    width: 100%;
-}
-
-
-.navbar li {
-    list-style: none;
-    display: inline;
-    padding: 0 20px;
+.link {
+    color: white !important;
+    transition: all 0.3s ease;
     font-size: 20px;
-    color: white;
+    padding-left: 40px !important;
+}
+
+.brand {
+    color: white !important;
     transition: all 0.3s ease;
-}
-
-.navbar li:hover {
-    color: red;
-}
-
-.logo {
-    background-color: gray;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin-left: 5vh;
-    color: white;
-}
-
-.logo a {
     font-size: 30px;
-    transition: all 0.3s ease;
 }
 
-.logo a:hover {
-    color: red;
+.link:hover,
+.brand:hover {
+    color: #B0C4D9 !important;
 }

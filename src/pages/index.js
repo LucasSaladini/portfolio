@@ -10,26 +10,26 @@ import About from '../components/About/About'
 import Contact from '../components/Contact/Contact'
 import Gallery from '../components/Gallery/Gallery'
 import Jobs from '../components/Jobs/Jobs'
-import Navbar from '../components/Navbar/Navbar'
+import Nav from '../components/Navbar/Navbar'
 import Main from '../components/Main_Index/Main'
 
 export default function Home() {
   return (
     <Layout>
       <Head>
-      <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+      <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin="true"></script>
 
       <script
         src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-        crossorigin></script>
+        crossOrigin="true"></script>
 
       <script
         src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-        crossorigin></script>
+        crossOrigin="true"></script>
 
       <script>var Alert = ReactBootstrap.Alert;</script>
       </Head>
-      <Navbar />
+      <Nav />
       <Main />
     </Layout>
 

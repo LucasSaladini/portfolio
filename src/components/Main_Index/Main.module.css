@@ -18,6 +18,8 @@
 .technologies h5 {
     font-size: 20px;
     text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .tech__img {
@@ -58,6 +60,10 @@
     text-align: center;
 }
 
+.accordion__bg {
+    background-color: #A1A1A1 !important;
+}
+
 .card__title {
     color: black;
     font-size: 25px;
@@ -65,4 +71,5 @@
 
 .card__text {
     font-size: 20px;
+    color: black;
 }
