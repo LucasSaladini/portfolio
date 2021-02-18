@@ -8,9 +8,6 @@ import styles from './Main.module.css';
 
 
 const Main = () => {
-    <Head>
-        
-    </Head>
     return(
         <main>
             <section className={styles.Intro}>

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from './Layout.module.css';
+import Footer from '../Footer/Footer'
 
 const Layout = ({ children, title="Lucas Saladini" }) => {
     return (
@@ -12,8 +13,8 @@ const Layout = ({ children, title="Lucas Saladini" }) => {
             { children }
         </main>
 
-        <footer className={styles.footer}>
-            footer
+        <footer>
+            <Footer />
         </footer>
     </div>
     )
