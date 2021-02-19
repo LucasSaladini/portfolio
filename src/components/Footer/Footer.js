@@ -12,7 +12,7 @@ const Footer = () => {
 			</div>
             <div className={styles.footercenter}>
                 <h3>Fale comigo</h3>
-                <p className={styles.footerContact}>(19) 198355 - 7139</p>
+                <p className={styles.footerContact}>(19) 98355 - 7139</p>
                 <p className={styles.footerContact}><a href="mailto:lucassaladini@gmai.com">lucassaladini@gmail.com</a></p>
             </div>
             <div className={styles.footerright}>

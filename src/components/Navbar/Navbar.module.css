@@ -15,3 +15,7 @@
 .brand:hover {
     color: #B0C4D9 !important;
 }
+
+.hamburger {
+    border: none;
+}

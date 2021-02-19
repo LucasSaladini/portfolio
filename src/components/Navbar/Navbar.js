@@ -13,14 +13,14 @@ import styles from './Navbar.module.css';
 
 const Navigation = () => {
     return (
-        <Navbar bg="dark" expand="lg">
+        <Navbar bg="dark" variant="dark"  expand="lg">
           <Navbar.Brand href="/" className={styles.brand}>Lucas Saladini</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle className={styles.hamburger} aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link href="/" className={styles.link}>Home</Nav.Link>
-              <Nav.Link href="" className={styles.link}>Portfólio</Nav.Link>
-              <Nav.Link href="" className={styles.link}>Contato</Nav.Link>
+              <Nav.Link href="/portfolio" className={styles.link}>Portfólio</Nav.Link>
+              <Nav.Link href="/contato" className={styles.link}>Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
