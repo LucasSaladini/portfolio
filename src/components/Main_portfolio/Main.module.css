@@ -9,17 +9,25 @@
     margin-top: 30px;
 }
 
-.technologies h2 {
+.portfolio h2 {
     font-size: 40px;
     text-align: center;
     margin-top: 20vw;
 }
 
-.technologies h5 {
-    font-size: 20px;
+.portfolio h5 {
+    font-size: 25px;
     text-align: center;
     margin-bottom: 40px;
     margin-top: 40px;
+}
+
+.portfolio h6 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: bold;
 }
 
 .tech__img {
