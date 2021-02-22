@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
 import Head from 'next/head';
-import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 import styles from './Main.module.css';
 
 
@@ -23,17 +23,66 @@ const Main = () => {
                 </p>
             </section>
             <section className={styles.portfolio}>
-                <h2>Portfólio</h2>
-                    <h5>Websites</h5>
-                        <h6>Realizados</h6>
-                        <h6>Ideias</h6>
-                    <h5>Aplicativos</h5>
-                        <h6>Realizados</h6>
-                        <h6>Ideias</h6>  
-            </section>
-            <section className={styles.faq}>
-                <h2>Demonstrações</h2>
-                <p>Aqui você pode ver os vídeos de sites e aplicativos funcionando ao vivo!</p>
+                <h1>Portfólio</h1>
+                <Container>
+                    <h2>Websites</h2>
+                    <h3 className='mb-5'>Realizados</h3>
+                    <Row>
+                        <Col>
+                            <Image src="/land-page-atma.png" className='h-auto' fluid/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Image src="/land-page-kim.png" className='mt-5 h-auto' fluid/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Image src="/thais.png" className='mt-5 h-auto' fluid />
+                        </Col>
+                    </Row>
+                    <h3>Ideias</h3>
+                    <Row>
+                        <Col>
+                            <Image src="/coffecorner.png" className='mt-5 h-auto' fluid />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Image src="/mato.png" className='mt-5 h-auto' fluid />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Image src="/freshfur.jpg" className='mt-5 h-auto' fluid />
+                        </Col>
+                    </Row>
+                </Container>
+                <Container className={styles.apps}>
+                    <h2>Apps</h2>
+                    <h3>Realizados</h3>
+                    <Row>
+                        <Col>
+                            <Image src="/Inicial.png" width={500} fluid/>
+                        </Col>
+                    </Row>
+                    <h3>Ideias</h3>
+                    <Row>
+                        <Col>
+                            <Image src="/daperdan.jpg" fluid/>
+                        </Col>
+                    </Row>
+                </Container>
+                <Container className={styles.apps}>
+                    <h2>Logos</h2>
+                    <h3>Ideias</h3>
+                    <Row>
+                        <Col>
+                            <Image src="/barberlogo.png" width={500} fluid/>
+                        </Col>
+                    </Row>
+                </Container>
             </section>
         </main>
     );
