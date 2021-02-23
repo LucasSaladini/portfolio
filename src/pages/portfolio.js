@@ -1,16 +1,13 @@
 import Head from 'next/head'
-import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Elements
 import Layout from '../components/Layout/Layout'
 import Nav from '../components/Navbar/Navbar'
-import Portfolio from '../components/Main_Portfolio/Main'
+import Portfolio from '../components/Portfolio/Main'
 
 
-export default function Home() {
+export default function portfolio() {
   return (
     <Layout>
       <Head>

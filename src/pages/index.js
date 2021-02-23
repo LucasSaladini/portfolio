@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //Elements
 import Layout from '../components/Layout/Layout'
 import Nav from '../components/Navbar/Navbar'
-import Main from '../components/Main_Index/Main'
+import Main from '../components/Index/Main'
 
 
 export default function Home() {

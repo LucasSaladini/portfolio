@@ -4,10 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //Elements
 import Layout from '../components/Layout/Layout'
 import Nav from '../components/Navbar/Navbar'
-import Contato from '../components/Main_Contato/Main'
+import Contato from '../components/Contact/Main'
 
 
-export default function Home() {
+export default function Contact() {
   return (
     <Layout>
       <Head>
