@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 import Media from 'react-bootstrap/Media';
-import Figure from 'react-bootstrap/Figure';
 import Image from 'react-bootstrap/Image';
 import styles from './Main.module.css';
 
