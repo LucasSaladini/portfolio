@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Media from 'react-bootstrap/Media';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import axios from 'axios';
 import styles from './Main.module.css';
 
 const Contact = () => {
@@ -29,6 +29,25 @@ const Contact = () => {
         console.log(fields);
     }
 
+    function send(){
+        const formData = new FormData();
+        Object.keys(campos).forEach(key => formData.append(key, campos[key]));
+        axios.post('http://localhost:3030/send', 
+                  formData,
+                  {
+                    headers: {
+                      "Content-Type": `multipart/form-data; boundary=${formData._boundary}`,
+                    }
+                  })
+          .then(response => { console.log(response.data); })
+      }
+      
+      function handleFormSubmit(event){ 
+        event.preventDefault(); 
+        console.log(campos); 
+        send(campos);
+      }
+
     return(
         <main>
             <section className={styles.Intro}>
@@ -40,7 +59,10 @@ const Contact = () => {
                 <Image width={50} height={50} className="mr-3" src="/WhatsApp.svg" alt="" />
                 <Media>
                     <Media.Body>
-                        <h5>(19) 98355 - 7139</h5>
+                        <h5>
+                            <a href="https://wa.me/5519983557139?text=Olá, podemos conversar?" target="_blank">
+                                (19) 98355 - 7139</a>
+                        </h5>
                     </Media.Body>
                 </Media>
             </section>
