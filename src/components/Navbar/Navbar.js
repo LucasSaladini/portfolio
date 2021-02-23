@@ -20,7 +20,7 @@ const Navigation = () => {
             <Nav className="ml-auto">
               <Nav.Link href="/" className={styles.link}>Home</Nav.Link>
               <Nav.Link href="/portfolio" className={styles.link}>Portfólio</Nav.Link>
-              <Nav.Link href="/contato" className={styles.link}>Contato</Nav.Link>
+              <Nav.Link href="/contact" className={styles.link}>Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
