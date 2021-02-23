@@ -3,11 +3,9 @@ import Head from 'next/head';
 import Media from 'react-bootstrap/Media';
 import Figure from 'react-bootstrap/Figure';
 import Image from 'react-bootstrap/Image';
-import 'isomorphic-fetch';
 import styles from './Main.module.css';
 
-
-const Main = () => {
+function Main() {
     return(
         <main>
             <section className={styles.Intro}>
@@ -24,7 +22,7 @@ const Main = () => {
                 </Media>
             </section>
             <section className={styles.form}>
-
+                
             </section>
         </main>
     );
