@@ -21,9 +21,6 @@ function Contact() {
                     </Media.Body>
                 </Media>
             </section>
-            <section className={styles.form}>
-                
-            </section>
         </main>
     );
 };
