@@ -13,9 +13,7 @@ const Layout = ({ children, title="Lucas Saladini" }) => {
             { children }
         </main>
 
-        <footer>
-            <Footer />
-        </footer>
+        <Footer />
     </div>
     )
 }

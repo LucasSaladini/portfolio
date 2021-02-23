@@ -1,6 +1,6 @@
 .footer {
     color: white;
-    position: static;
+    position: relative;
     bottom: 0;
     box-sizing: border-box;
     width: 100%;
