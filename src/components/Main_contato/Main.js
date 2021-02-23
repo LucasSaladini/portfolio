@@ -4,7 +4,7 @@ import Media from 'react-bootstrap/Media';
 import Image from 'react-bootstrap/Image';
 import styles from './Main.module.css';
 
-function Contact() {
+const Contact = () => {
     return(
         <main>
             <section className={styles.Intro}>
