@@ -5,7 +5,7 @@ import Figure from 'react-bootstrap/Figure';
 import Image from 'react-bootstrap/Image';
 import styles from './Main.module.css';
 
-function Main() {
+function Contact() {
     return(
         <main>
             <section className={styles.Intro}>
@@ -28,4 +28,4 @@ function Main() {
     );
 };
 
-export default Main;
+export default Contact;

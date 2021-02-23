@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image';
 import styles from './Main.module.css';
 
 
-const Main = () => {
+const Portfolio = () => {
     return(
         <main>
             <section className={styles.Intro}>
@@ -88,4 +88,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default Portfolio;
