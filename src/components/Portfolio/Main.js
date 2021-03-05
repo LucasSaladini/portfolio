@@ -21,6 +21,9 @@ const Portfolio = () => {
                 <p className={styles.paragraph}>
                     Aqui estão dispostas, em forma de <strong>imagens</strong>, de tudo o que já criei e o que <strong>imaginei</strong> como sendo <strong>soluções</strong> para diversos serviços.
                 </p>
+                <p className={styles.paragraph}>
+                    <strong>Clique</strong> nas imagens para ver todas as fotos do site criado.
+                </p>
             </section>
             <section className={styles.portfolio}>
                 <h1>Portfólio</h1>
@@ -29,33 +32,55 @@ const Portfolio = () => {
                     <h3 className='mb-5'>Realizados</h3>
                     <Row>
                         <Col>
-                            <Image src="/land-page-atma.png" className='h-auto' fluid/>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
                             <Image src="/land-page-kim.png" className='mt-5 h-auto' fluid/>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <Image src="/thais.png" className='mt-5 h-auto' fluid />
+                            <a href="https://www.behance.net/gallery/111117611/Fisioterapeuta" target="_blank">
+                                <Image src="/thais.png" className='mt-5 h-auto' fluid />
+                            </a>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <a href="https://www.behance.net/gallery/111117337/Lar-Betel" target="_blank">
+                                <Image src="/larbetel.png" className='mt-5 h-auto' fluid/>
+                            </a>
                         </Col>
                     </Row>
                     <h3>Ideias</h3>
                     <Row>
                         <Col>
-                            <Image src="/coffecorner.png" className='mt-5 h-auto' fluid />
+                            <a href="https://www.behance.net/gallery/111448969/Coffee-Corner" target="_blank">
+                                <Image src="/coffecorner.png" className='mt-5 h-auto' fluid />
+                            </a>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <Image src="/mato.png" className='mt-5 h-auto' fluid />
+                            <Image src="/land-page-atma.png" className='mt-5 h-auto' fluid/>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <Image src="/freshfur.jpg" className='mt-5 h-auto' fluid />
+                            <a href="https://www.behance.net/gallery/112687815/Mato-Restaurant" target="_blank">
+                                <Image src="/mato.png" className='mt-5 h-auto' fluid />
+                            </a>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <a href="https://www.behance.net/gallery/114772145/Beauty-Salon" target="_blank">
+                                <Image src="/beauty.png" className='mt-5 h-auto' fluid />
+                            </a>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <a href="https://www.behance.net/gallery/112261599/Fresh-Fur" target="_blank">
+                                <Image src="/freshfur.jpg" className='mt-5 h-auto' fluid />
+                            </a>
                         </Col>
                     </Row>
                 </Container>
