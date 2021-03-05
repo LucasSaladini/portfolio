@@ -55,6 +55,11 @@ const Portfolio = () => {
                     </Row>
                     <Row>
                         <Col>
+                        
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
                             <Image src="/freshfur.jpg" className='mt-5 h-auto' fluid />
                         </Col>
                     </Row>
