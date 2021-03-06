@@ -44,7 +44,7 @@ const Main = () => {
                             alt="" width={300} height={300}></Image>
                         </div>
                         <div className={styles.tech__img__lang_php}>
-                            <Image src="/php-1.svg" alt="" width={100} height={100}></Image>
+                            <Image src="/php-logo-bigger.png" alt="" width={170} height={70}></Image>
                         </div>
                     <h5>Aplicativos</h5>
                         <div className={styles.tech__img}>
