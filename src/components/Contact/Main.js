@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Head from 'next/head';
 import Media from 'react-bootstrap/Media';
 import Image from 'react-bootstrap/Image';
-import Row from 'react-bootstrap/Row';
 import styles from './Main.module.css';
 
 const Contact = () => {
@@ -24,9 +23,9 @@ const Contact = () => {
                     </Media.Body>
                 </Media>
             </section>
-            <section className={styles.Intro}>
-                <p>Ou, se preferir, me mande um e-mail</p>
-                <a href="mailto:lucassaladini@gmail.com">lucassaladini@gmail.com</a>
+            <section className={styles.email}>
+                <p>Ou, se preferir, me mande um e-mail:</p>
+                <p><a href="mailto:lucassaladini@gmail.com">lucassaladini@gmail.com</a></p>
             </section>
         </main>
     );
